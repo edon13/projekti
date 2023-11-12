@@ -1,7 +1,9 @@
-html, body {
-    margin: 0;
+head,body{
     padding: 0;
-  }  
+    margin: 0;
+
+
+}
 
 .homebar{
    
@@ -58,19 +60,60 @@ html, body {
 }
 .flexcontainer > div{
     background-color: aliceblue;
-    padding: 25px;
+   
     margin: 10px;
     height: 300px;
     width: 300px;
     border-radius: 15px;
+    
 
 }
 
+.flexcontainer2{
+    
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+   
+}
+.flexcontainer2 > div{
+    background-color: aliceblue;
+   
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    
+
+}
 
 .homebar > a{
     color: white;
     font-family: sans-serif;
-
+    text-decoration: none;
 }
 
+.flexcontainer img{
+    height: 50%;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.flexcontainer2 img{
+    height: 50%;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+main > h1{
+    margin-left: 100px;
+    
+
+}
+footer{
+    background-color: #112D4E;
+    padding: 50%;
+}
 
