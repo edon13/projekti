@@ -2,7 +2,7 @@ head,body{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    
+
 }
 
 .homebar{
@@ -74,9 +74,22 @@ head,body{
     
     display: flex;
     padding: 25px;
+    overflow: hidden;
     justify-content: center;
+    animation: slide  40s linear infinite;
     
 }
+
+@keyframes slide{
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(calc(-100%));
+    }
+
+}
+
 .flexcontainer > div{
     background-color: aliceblue;
     
@@ -84,7 +97,7 @@ head,body{
     height: 300px;
     width: 300px;
     border-radius: 15px;
-    
+    flex: none;
     transition: transform 0.3s;
 
 }
@@ -96,7 +109,7 @@ head,body{
 
 
 .flexcontainer2{
-    
+    animation: slide 40s reverse linear infinite;
     display: flex;
     padding: 25px;
     justify-content: center;
@@ -132,6 +145,47 @@ head,body{
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
+
+.subs {
+    display: flex;
+    padding: 25px;
+    overflow: hidden;
+    justify-content: center;
+    
+
+
+}
+.subs >div{
+
+
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    
+}
+.subs img{
+    border-radius: 15px;
+    object-fit: contain;
+    z-index: 0;
+    
+
+}
+.ecoclass span{
+    
+    z-index: 1;
+    transform: translate(-50%, -50%); 
+    position: absolute;
+    padding: 15px 20px;
+    background-color: hotpink;
+    border-radius: 15px;
+    overflow: hidden;
+    
+    
+    
+}
+
+
 
 main > h1{
     margin-left: 100px;
