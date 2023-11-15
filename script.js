@@ -4,14 +4,11 @@ console.log("hello world");
 
 const button1 = document.getElementById('button1');
 const divbox = document.getElementsByClassName('flexcontainer')
-const textbox = document.getElementById('input1')
-const html= document.getElementsByName('html')
 
 button1.addEventListener('click',function Detyra() {
     //alert("tu qi nana")
-
-    
-    textbox.style.visibility = 'visible';
+    console.log("tu qi nana");
+    //button1.style.backgroundColor = '#112D4E';
     
 });
 function spawnContainer(){

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log_in</title>
+    <link rel="stylesheet" href="login.css">
+    
+</head>
+<body>
+    <div id="li_form" class="loginform_div">
+
+        <form id="loginform">
+            <h1>Login</h1>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" class="inpf" required>
+            <br>
+            <br>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" class="inpf" required>
+            <br>
+            <br>
+            <div class="bdiv">
+                <button class="buttons" type="submit">Login</button>  
+                <button class="buttons" type="button" onclick="toggleForm()">Register</button>
+            </div>
+            
+        </form>
+
+        <form id="signupform" style="display: none;">
+            <h1>Register</h1>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="inpf" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="inpf" required>
+
+            <label for="signupUsername">Username:</label>
+            <input type="text" id="signupUsername" name="signupUsername" class="inpf" required>
+
+            <label for="signupPassword">Password:</label>
+            <input type="password" id="signupPassword" name="signupPassword" class="inpf" required>
+            <br>
+            <br>
+
+            <button class="buttons" type="submit">Submit</button>
+
+            <button class="buttons" type="button" onclick="toggleForm()">Switch to Login</button>
+
+        </form>
+
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

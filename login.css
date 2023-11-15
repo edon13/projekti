@@ -1,0 +1,66 @@
+body{
+    
+    background-image: url("banner-airplane-628x439.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginform_div{
+    display: flex;
+    justify-items: space-around;
+    
+    
+}
+
+
+form{
+    
+    background-color: rgba(247, 247, 247, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 40px 8px 10px rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0);
+    width: 110px;
+    margin-left: 50p;
+    
+    
+    
+}
+
+button:hover {
+    color: white;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+    background-color: rgba(104, 85, 224, 1);
+  }
+
+.bdiv{
+    margin-left: 30px;
+}
+
+.inpf {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+
+
