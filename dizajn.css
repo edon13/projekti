@@ -2,8 +2,27 @@ head,body{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-
+    overflow-x: hidden;
 }
+
+
+
+
+
+.rezervimi{
+    z-index: 1;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    display: inline;
+    padding: 20px;
+    border-radius: 15px;
+    ;
+}
+
+
 
 .homebar{
    
@@ -21,10 +40,11 @@ head,body{
 }
 
 .container{
+    z-index: 0;
     position: relative;
     width: 100%;
-   
-
+    background: url(banner-airplane-628x439.jpg), lightgray 50% / cover no-repeat;
+    height: 575px;
 }
 
 .container img{
@@ -40,7 +60,7 @@ head,body{
    
     position: absolute;
     transform: translate(-50%, -50%); 
-    z-index: 1;
+    z-index: 2;
     color: white;
     top: 50%;
     left: 50%;

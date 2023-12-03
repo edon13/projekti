@@ -1,4 +1,10 @@
-body{
+html{
+ overflow-x: hidden;
+
+}
+
+
+head,body{
     
     background-image: url("banner-airplane-628x439.jpg");
     background-repeat: no-repeat;
@@ -11,9 +17,11 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
+    
     height: 100vh;
+    overflow-x:hidden;
+    
 }
 
 .loginform_div{
