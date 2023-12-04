@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>skylineairline</title>
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="dizajn.css">
+        <link rel="stylesheet" href="bookTstyle.css">
+        
+        
+    </head>
+    <body>
+    <header>
+
+        
+        <nav class="homebar">
+            
+            <a href="facebook.com">Flights</a>
+            <a href="/">Home</a>
+            <a href="log_in.html">Login</a>
+            <a href="">Sign In</a>
+            <a href="index.html"><img src="logo.png" alt=""></a>
+        </nav>
+        
+
+
+       
+        <div class="imagecon">
+            <div class="container">
+                <h1>Where the world is your destination, and your journey begins with us.</h1>
+                <img src="banner-airplane-628x439.jpg" alt="plane"  height="450" width="100%">
+            </div>
+        </div>
+    </header>
+
+    <section style="">
+        <div class="search-wrapper">
+            <label for="search">Search tickets</label><br>
+            <input type="search" id="search" oninput="filterTickets()"></div>
+    
+        <div class="tickets">
+            <div class="ticket">
+                <img src="eiffel-tower-in-paris-151-medium.jpg" alt="">
+                <div class="flight-name">Flight 742lm</div>
+                <div class="destination">Destination: Paris</div>
+                <div class="departing-time">Departing Time: 11:00 PM</div>
+                <div class="class-name">Class: Business</div>
+            </div>
+            <div class="ticket">
+                <img src="m.jpg" alt="">
+                <div class="flight-name">Flight A1233</div>
+                <div class="destination">Destination: Moscow</div>
+                <div class="departing-time">Departing Time: 12:00 PM</div>
+                <div class="class-name">Class: Business</div>
+            </div>
+            <div class="ticket">
+                <img src="n.jpg" alt="">
+                <div class="flight-name">Flight OS412</div>
+                <div class="destination">Destination: New York</div>
+                <div class="departing-time">Departing Time: 12:00 PM</div>
+                <div class="class-name">Class: Business</div>
+            </div>
+            <div class="ticket">
+                <img src="b.jpg" alt="">
+                <div class="flight-name">Flight ABC123</div>
+                <div class="destination">Destination: Berlin</div>
+                <div class="departing-time">Departing Time: 12:00 PM</div>
+                <div class="class-name">Class: Business</div>
+            </div>
+            <div class="ticket">
+                <img src="o.avif" alt="">
+                <div class="flight-name">Flight ABC123</div>
+                <div class="destination">Destination: Oslo</div>
+                <div class="departing-time">Departing Time: 12:00 PM</div>
+                <div class="class-name">Class: Business</div>
+            </div>
+            <div class="ticket">
+                <img src="bd.jpg" alt="">
+                <div class="flight-name">Flight ABC123</div>
+                <div class="destination">Destination: Budapest</div>
+                <div class="departing-time">Departing Time: 12:00 PM</div>
+                <div class="class-name">Class: Business</div>
+            </div>
+            <div class="ticket">
+                <img src="tokyo.jpg" alt="">
+                <div class="flight-name">Flight TYO789</div>
+                <div class="destination">Destination: Tokyo</div>
+                <div class="departing-time">Departing Time: 3:45 PM</div>
+                <div class="class-name">Class: First Class</div>
+            </div>
+            
+            <div class="ticket">
+                <img src="sy.jpg" alt="">
+                <div class="flight-name">Flight SYD456</div>
+                <div class="destination">Destination: Sydney</div>
+                <div class="departing-time">Departing Time: 8:15 AM</div>
+                <div class="class-name">Class: Economy</div>
+            </div>
+            
+            <div class="ticket">
+                <img src="rio.jpg" alt="">
+                <div class="flight-name">Flight RIO321</div>
+                <div class="destination">Destination: Rio de Janeiro</div>
+                <div class="departing-time">Departing Time: 5:30 PM</div>
+                <div class="class-name">Class: Business</div>
+            </div>
+            
+            <div class="ticket">
+                <img src="cairo.jpg" alt="">
+                <div class="flight-name">Flight CAI987</div>
+                <div class="destination">Destination: Cairo</div>
+                <div class="departing-time">Departing Time: 10:00 AM</div>
+                <div class="class-name">Class: Economy</div>
+            </div>
+            
+            <div class="ticket">
+                <img src="toro.jpg" alt="">
+                <div class="flight-name">Flight TOR654</div>
+                <div class="destination">Destination: Toronto</div>
+                <div class="departing-time">Departing Time: 2:20 PM</div>
+                <div class="class-name">Class: First Class</div>
+            </div>
+            
+            <div class="ticket">
+                <img src="madrid.jpg" alt="">
+                <div class="flight-name">Flight MAD321</div>
+                <div class="destination">Destination: Madrid</div>
+                <div class="departing-time">Departing Time: 6:45 AM</div>
+                <div class="class-name">Class: Business</div>
+            </div>
+            
+            <div class="ticket">
+                <img src="seoul.jpg" alt="">
+                <div class="flight-name">Flight SEL789</div>
+                <div class="destination">Destination: Seoul</div>
+                <div class="departing-time">Departing Time: 4:30 PM</div>
+                <div class="class-name">Class: Economy</div>
+            </div>
+            
+            <div class="ticket">
+                <img src="mexico.jpg" alt="">
+                <div class="flight-name">Flight MEX456</div>
+                <div class="destination">Destination: Mexico City</div>
+                <div class="departing-time">Departing Time: 9:15 AM</div>
+                <div class="class-name">Class: First Class</div>
+            </div>
+            
+            <div class="ticket">
+                <img src="am.jpg" alt="">
+                <div class="flight-name">Flight AMS987</div>
+                <div class="destination">Destination: Amsterdam</div>
+                <div class="departing-time">Departing Time: 1:00 PM</div>
+                <div class="class-name">Class: Business</div>
+            </div>
+            
+            <div class="ticket">
+                <img src="sin.jpg" alt="">
+                <div class="flight-name">Flight SGP654</div>
+                <div class="destination">Destination: Singapore</div>
+                <div class="departing-time">Departing Time: 7:30 AM</div>
+                <div class="class-name">Class: Economy</div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+   
+
+    
+    
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit velit id nisl ultricies, eu tincidunt mauris hendrerit.</p>
+            </div>
+    
+            <div class="footer-section">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="flights">Flights</a></li>
+                    <li><a href="login">Login</a></li>
+                    <li><a href="signin">Sign In</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h2>Contact Us</h2>
+                <p>Email: info@skylineairline.com</p>
+                <p>Phone: +383 (44) 123 - 321</p>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2023 skyline-Airline. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="book.js"> </script>
+    
+    </body>
+    
+</html>

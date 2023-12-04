@@ -1,25 +1,11 @@
+
+
 head,body{
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
     overflow-x: hidden;
-}
+    font-family: sans-serif;
 
-
-
-
-
-.rezervimi{
-    z-index: 1;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: white;
-    display: inline;
-    padding: 20px;
-    border-radius: 15px;
-    ;
 }
 
 
@@ -32,6 +18,11 @@ head,body{
     
     
 }
+.homebar img{
+    height: 40px;
+    margin: 10px;
+    
+}
 
 .homebar a{
     
@@ -40,11 +31,10 @@ head,body{
 }
 
 .container{
-    z-index: 0;
     position: relative;
     width: 100%;
-    background: url(banner-airplane-628x439.jpg), lightgray 50% / cover no-repeat;
-    height: 575px;
+   
+
 }
 
 .container img{
@@ -60,7 +50,7 @@ head,body{
    
     position: absolute;
     transform: translate(-50%, -50%); 
-    z-index: 2;
+    z-index: 1;
     color: white;
     top: 50%;
     left: 50%;
@@ -212,8 +202,42 @@ main > h1{
     
 
 }
-footer{
+footer {
     background-color: #112D4E;
-    padding: 200px;
+    color: white;
+    padding: 30px 0;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    max-width: 300px;
+}
+
+.footer-section h2 {
+    border-bottom: 1px solid white;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
 

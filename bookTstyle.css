@@ -1,0 +1,88 @@
+body{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+
+
+input{
+    
+    border-color:#555;
+}
+
+section {
+    text-align: center;
+}
+
+.search-wraper{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    margin-top: 20px;
+
+}
+
+input {
+    font-size: 1rem;
+}
+
+.tickets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.ticket {
+    border: 1px solid black ;
+    border-radius: 50% 20% / 10% 40%;
+    padding: .5rem;
+}
+
+.ticket > .header {
+    margin-bottom: .25rem;
+}
+
+.ticket img{
+    height: 200px;
+    width: 350px;
+    border-radius: 30%;
+    
+}
+
+.ticket > .body {
+    font-size: .8rem;
+    color: grey;
+}
+
+
+.hide{
+    display: none;
+}
+
+.ticket {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+.flight-name {
+    font-weight: bold;
+}
+
+.destination {
+    margin-top: 8px;
+}
+
+.departing-time {
+    margin-top: 8px;
+    font-size: 0.8em;
+    color: #555;
+}
+
+.class-name {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #0066cc;
+}
