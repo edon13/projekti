@@ -32,26 +32,37 @@
 
         <form id="signupform" style="display: none;" onsubmit="return validateForm()">
             <h1>Register</h1>
-
+        
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" class="inpf" required>
             <br>
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" class="inpf" required>
+            <br>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" class="inpf" required>
-
+        
             <label for="signupUsername">Username:</label>
             <input type="text" id="signupUsername" name="signupUsername" class="inpf" required>
-
+        
             <label for="signupPassword">Password:</label>
             <input type="password" id="signupPassword" name="signupPassword" class="inpf" required>
             <br>
             <br>
-
+        
             <button class="buttons" type="submit">Submit</button>
-
+        
             <button class="buttons" type="button" onclick="toggleForm()">Switch to Login</button>
-
         </form>
+
+    </div>
+
+    <div class="logincheck" style="display: none;">
+        <p id="name"></p>
+        <p id="surname"></p>
+        <p id="email"></p>
+        <p id="username"></p>
+        <p id="password"></p>
 
     </div>
 
