@@ -143,7 +143,6 @@ head,body{
     
     display: flex;
     padding: 25px;
-    overflow: hidden;
     justify-content: center;
     animation: slide  40s linear infinite;
     
@@ -160,8 +159,7 @@ head,body{
 }
 
 .flexcontainer > div{
-    background-color: aliceblue;
-    
+    background-color: aliceblue; 
     margin: 10px;
     height: 300px;
     width: 300px;
@@ -175,83 +173,41 @@ head,body{
 
 }
 
-
-
-.flexcontainer2{
-    animation: slide 40s reverse linear infinite;
+.flexcontainer2 {
     display: flex;
     padding: 25px;
     justify-content: center;
-   
+    animation: slideReverse 40s linear infinite;
 }
-.flexcontainer2 > div{
+
+@keyframes slideReverse {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(calc(100%));
+    }
+}
+
+.flexcontainer2 > div {
     background-color: aliceblue;
-   
     margin: 10px;
     height: 300px;
     width: 300px;
     border-radius: 15px;
-    
-
+    flex: none;
+    transition: transform 0.3s;
 }
+
+.flexcontainer2 > div:hover {
+    transform: scale(1.1);
+}
+
 
 .homebar > a{
     color: white;
     font-family: sans-serif;
     text-decoration: none;
-}
-
-.flexcontainer img{
-    height: 50%;
-    border-radius: 15px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-}
-
-.flexcontainer2 img{
-    height: 50%;
-    border-radius: 15px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-}
-
-.subs {
-    display: flex;
-    padding: 25px;
-    overflow: hidden;
-    justify-content: center;
-    
-
-
-}
-.subs >div{
-
-
-    margin: 10px;
-    height: 300px;
-    width: 300px;
-    border-radius: 15px;
-    
-}
-.subs img{
-    border-radius: 15px;
-    object-fit: contain;
-    z-index: 0;
-    
-
-}
-.ecoclass span{
-    
-    z-index: 1;
-    transform: translate(-50%, -50%); 
-    position: absolute;
-    padding: 15px 20px;
-    background-color: hotpink;
-    border-radius: 15px;
-    overflow: hidden;
-    
-    
-    
 }
 
 
