@@ -1,89 +1,102 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>skylineairline</title>
+  <head>
+    <title>skylineairline</title>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="dizajn.css">
-        <link rel="stylesheet" href="bookTstyle.css">
-        
-    </head>
-    <body>
-       
-        <header>
-            <nav class="homebar">
-                <a href="index.html" class="logo"><img src="style/logotr.png" alt=""></a>
-                <div class="nav-items">
-                    <a href="bookT.html">Flights</a>
-                    <a href="index.html">Home</a>
-                    <a href="log_in.html">Login</a>
-                    <a href="log_in.html">Sign In</a>
-                </div>
-            </nav>
-            
-            
-            
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="dizajn.css" />
+    <link rel="stylesheet" href="bookTstyle.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="homebar">
+        <a href="index.html" class="logo"
+          ><img src="style/logotr.png" alt=""
+        /></a>
+        <div class="nav-items">
+          <a href="bookT.html">Flights</a>
+          <a href="index.html">Home</a>
+          <a href="log_in.html">Login</a>
+          <a href="log_in.html">Sign In</a>
+        </div>
+      </nav>
 
-            <div class="imagecon">
-                <div class="container">
-                    <h1>Where the world is your destination, and your journey begins with us.</h1>
-                    <a href="bookT.html">
-                        <button id="button1" class="button1">Book now</button>
-                    </a>
-                    <img src="style/plane.jpg" alt="plane" height="450" width="100%">
-                </div>
-            </div>
-        </header>
+      <div class="imagecon">
+        <div class="container">
+          <h1>
+            Where the world is your destination, and your journey begins with
+            us.
+          </h1>
+          <a href="bookT.html">
+            <button id="button1" class="button1">Book now</button>
+          </a>
+          <img src="style/plane.jpg" alt="plane" height="450" width="100%" />
+        </div>
+      </div>
+    </header>
 
-        <main>
+    <main>
+      <h1>Most Popular Flights</h1>
+      <div class="flexcontainer" id="flexcontainer">
+        <!-- ktu e kryn punen funksioni fetchBookTContent()  -->
+      </div>
+      <div class="news-container">
+        <div class="news-item">
+          <h3>Exciting Destinations Added!</h3>
+          <p>
+            Discover new and exciting destinations in our latest flight
+            offerings. Plan your next adventure now!
+          </p>
+        </div>
+        <h1>Cheapest Flights</h1>
+        <div class="flexcontainer2" id="flexcontainer2">
+          <!-- ktu e kryn punen funksioni fetchBookTContent()  -->
+        </div>
+        <div class="news-item">
+          <h3>Special Discounts for Members</h3>
+          <p>
+            Sign up for our membership program and enjoy exclusive discounts on
+            flights. Limited-time offer!
+          </p>
+          <button class="signup-button" onclick="location.href='signup.html'">
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </main>
 
-            
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h2>About Us</h2>
+          <p>
+            We are a new company who are looking to connect the world with
+            traveling.
+          </p>
+        </div>
 
+        <div class="footer-section">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="flights">Flights</a></li>
+            <li><a href="login">Login</a></li>
+            <li><a href="signin">Sign In</a></li>
+          </ul>
+        </div>
 
+        <div class="footer-section">
+          <h2>Contact Us</h2>
+          <p>Email: info@skylineairline.com</p>
+          <p>Phone: +383 (44) 123 - 321</p>
+        </div>
+      </div>
 
-            <h1>Most Popular Flights</h1>
-            <div class="flexcontainer" Id="flexcontainer">
-            <!-- ktu e kryn punen funksioni fetchBookTContent()  -->
-            </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 skyline-Airline. All rights reserved.</p>
+      </div>
+    </footer>
 
-            <h1>Cheapest Flights</h1>
-            <div class="flexcontainer2" id="flexcontainer2">
-                <!-- ktu e kryn punen funksioni fetchBookTContent()  -->
-            </div>
-            
-
-            
-        </main> 
-
-        <footer>
-            <div class="footer-container">
-                <div class="footer-section">
-                    <h2>About Us</h2>
-                    <p>We are a new company who are looking to connect the world with traveling.</p>
-                </div>
-
-                <div class="footer-section">
-                    <h2>Quick Links</h2>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="flights">Flights</a></li>
-                        <li><a href="login">Login</a></li>
-                        <li><a href="signin">Sign In</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-section">
-                    <h2>Contact Us</h2>
-                    <p>Email: info@skylineairline.com</p>
-                    <p>Phone: +383 (44) 123 - 321</p>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2023 skyline-Airline. All rights reserved.</p>
-            </div>
-        </footer>
-
-        <script type="module" src="script.js"></script>
-    </body>
+    <script type="module" src="script.js"></script>
+  </body>
 </html>

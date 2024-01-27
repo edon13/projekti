@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    font-family: "Roboto", sans-serif;
+}
 html {
     overflow-y: scroll;
     scrollbar-width: thin;
@@ -254,5 +258,39 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
+.news-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
 
+.news-item {
+    width: 30%;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+.news-item:hover {
+    transform: scale(1.05);
+  }
+  .signup-button {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .signup-button:hover {
+    background-color: #2980b9;
+  }
 
